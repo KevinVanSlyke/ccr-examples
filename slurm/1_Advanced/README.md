@@ -6,8 +6,8 @@
 
 | Topic                                | Description |
 |--------------------------------------|------------------------|
-| [Job Arrays](./job-array)                | Submit an array of similar jobs |
-| [GPU](./GPU)                      | Request and validate access to GPU resources |
+| [Job Arrays](./JobArrays)                | Submit an array of similar jobs |
+| [GPU](./GPUs)                      | Request and validate access to GPU resources |
 
 ## Additional Information
 
