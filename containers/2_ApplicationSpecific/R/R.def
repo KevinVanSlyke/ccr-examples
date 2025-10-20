@@ -1,0 +1,15 @@
+FROM rocker/r-ver:4.3.0 # Or the desired R version
+
+# Install additional packages
+RUN R -e "install.packages(c('ggplot2', 'dplyr'))"
+
+# You can add more packages here as needed
+
+# Set working directory (optional)
+WORKDIR /app
+
+# Copy any local scripts or files (optional)
+# COPY . .
+
+# Example command to run R
+CMD ["R", "-e", "cat('R environment ready\\n')"]
