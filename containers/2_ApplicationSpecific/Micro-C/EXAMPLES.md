@@ -370,8 +370,7 @@ In CCR's [OnDemand portal](https://ondemand.ccr.buffalo.edu) you can view a .hic
 java -Xmx96000m -jar /opt/Micro-C/juicebox.jar
 ```
 
-[File][Open][Local] browse to the path of the .hic file e.g.
- /projects/academic/[...]/contact_map.hic
+[File][Open][Local] browse to the path of the .hic file e.g. `/projects/academic/[...]/contact_map.hic`
 
 
 ## Generating cooler contact maps

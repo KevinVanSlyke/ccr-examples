@@ -15,14 +15,14 @@ srun --jobid="${SLURM_JOB_ID}" --export=HOME,TERM,SHELL --pty /bin/bash --login
 
 sample outout:
 
-> ```
+```
 salloc: Pending job allocation [JobID]
 salloc: job [JobID] queued and waiting for resources
 salloc: job [JobID] has been allocated resources
 salloc: Granted job allocation [JobID]
 salloc: Nodes [NodeID] are ready for job
 CCRusername@[NodeID]:~$
-> ```
+```
 
 Change to your OpenSees directory
 The "OpenSees.def" file will already be in the directory if you have already built
