@@ -97,7 +97,8 @@ OpenSees >
 
 Parallel MPI jobs can be run with OpenSeesSP or OpenSeesMP
 
-|---|---|
+| Parallel MPI Options                 | Description |
+|--------------------------------------|------------------------|
 | OpenSeesSP | For Performing analysis of very large models. |
 | OpenSeesMP | For Performing parameter studies or analysis of large models with user defined partitions |
 
