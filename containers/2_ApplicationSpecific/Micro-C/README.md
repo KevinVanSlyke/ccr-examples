@@ -9,7 +9,7 @@ Please refer to CCR's [container documentation](https://docs.ccr.buffalo.edu/en/
 
 > [!IMPORTANT]
 > Apptainer is not available on the CCR login nodes and the compile nodes may not provide enough resources for you to build a container.  We recommend requesting an interactive job on a compute node to conduct this build process.<br/>
-> See CCR docs for more info on [running jobs](https://docs.ccr.buffalo.edu/en/latest/hpc/jobs/#interactive-job-submission)
+> See CCR docs for more info on [running jobs](https://docs.ccr.buffalo.edu/en/latest/hpc/jobs/#interactive-job-submission).
 
 ```
 salloc --cluster=ub-hpc --partition=debug --qos=debug --exclusive --time=01:00:00
@@ -91,7 +91,7 @@ view the files e.g. on a Mac
 Open a Terminal e.g. [Utilities] [Terminal.app]
 ```
 cd ~/Downloads
-scp [CCRuser]@vortex.ccr.buffalo.edu:Micro-C_html.zip .
+scp [CCRusername]@vortex.ccr.buffalo.edu:Micro-C_html.zip .
 unzip Micro-C_html.zip
 ```
 In Finder go to [Downloads] [Micro-C_html]

@@ -85,7 +85,7 @@ sample output:
 > Apptainer>
 > ```
 
-All the following commands are run from the "Apptainer> " prompt
+All the following commands are run from the `Apptainer> ` prompt
 
 Copy the line from above to use OpenFOAM
 

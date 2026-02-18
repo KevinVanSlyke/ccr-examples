@@ -27,7 +27,8 @@ ln -s /util/software/data/Micro-C/hg38.fasta.chrom.sizes
 ```
 
 > [!NOTE]
-> These are the small 2M reads data sets - ONLY FOR TESTING use the 800M reads data sets for all other use cases
+> These are the small 2M reads data sets. THEY ARE ONLY FOR TESTING!
+> Use the 800M reads data sets for all other use cases.
 
 ```
 ln -s /util/software/data/Micro-C/MicroC_2M_R1.fastq
@@ -63,7 +64,7 @@ From this file we generate the hg38.genome file:
 cut -f1,2 hg38.fasta.fai > hg38.genome
 ```
 
-- The following step takes about an hour and 10 minutes to run:
+The following step takes about an hour and 10 minutes to run:
 
 ```
 bwa index hg38.fasta
@@ -239,7 +240,7 @@ Unfortunately, no example was provided.
 
 
 # ChiP enrichment
-(from HiChiP Docs]
+(from HiChiP Docs)
 
 The following example uses a link to the ENCFF017XLW.bed file already downloaded at CCR
 

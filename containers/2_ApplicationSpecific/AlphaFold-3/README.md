@@ -37,9 +37,9 @@ Please refer to CCR's [container documentation](https://docs.ccr.buffalo.edu/en/
 1. Start an interactive job
 
 > [!IMPORTANT]
-> Apptainer is not available on the CCR login nodes and the compile nodes may not provide enough resources for you to build a container.  We recommend requesting an interactive job on a compute node to conduct this build process.<br/>
+> Apptainer is not available on the CCR login nodes and the compile nodes may not provide enough resources for you to build a container.  We recommend requesting an interactive job on a compute node to conduct this build process.
 
-A GPU is NOT needed to build the AlphaFold container.<br/>
+A GPU is NOT needed to build the AlphaFold container.
 See CCR docs for more info on [running jobs](https://docs.ccr.buffalo.edu/en/latest/hpc/jobs/#interactive-job-submission)
 
 ```
