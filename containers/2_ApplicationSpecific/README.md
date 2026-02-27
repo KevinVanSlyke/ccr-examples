@@ -14,6 +14,7 @@ Please refer to CCR's [container documentation](https://docs.ccr.buffalo.edu/en/
 | [AlphaFold 3](./AlphaFold-3)         | AlphaFold 3 container with steps for building and running a Data Pipeline and Inference via Apptainer and Slurm |
 | [BindCraft](./BindCraft)             | Free BindCraft container with steps for building and running with or without PyRosetta via Apptainer and Slurm |
 | [CONDA](./conda)                     | Example CONDA container with steps for building and running via Apptainer |
+| [FDS](./fds)                         | FDS container example with an interactive job and a bash script |
 | [Juicer](./juicer)                   | Example of running the containerized version of Juicer at CCR using Apptainer |
 | [Micro-C](./Micro-C)                 | Micro-C Pipeline container with steps for building and running via Apptainer |
 | [OpenFF-Toolkit](./Open_Force_Field_toolkit)  | Open Force Field toolkit container with steps for building and running via Apptainer |
@@ -26,5 +27,5 @@ Please refer to CCR's [container documentation](https://docs.ccr.buffalo.edu/en/
 ## Additional Information
 
 - The [Slurm README](../../slurm/README.md) provides details on general Slurm usage.
-- The [Placeholders](../../slurm/README.md#placeholders) section lists the available options for each placeholder used in the example scripts.
-- The [slurm-options.sh](../../slurm/slurm-options.sh) file outlines commonly used `#SBATCH` directives with their descriptions.
+- The [Placeholders](../../README.md#placeholders) section lists the available options for each placeholder used in the examples.
+- The [slurm-options.bash](../../slurm/slurm-options.bash) file outlines commonly used `#SBATCH` directives with their descriptions.

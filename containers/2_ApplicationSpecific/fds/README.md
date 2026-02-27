@@ -25,7 +25,7 @@ After the pull completes, the Apptainer image will be saved as `fds_6.7.9.sif` i
 
 ## Running the container image  
 
-You can run FDS either in an interactive job or non-interactively by using a batch script (recommended).
+You can run FDS either in an interactive job or non-interactively by using a bash script (recommended).
 
 The following information on running FDS is provided as an example only.  The [`radiator.fds`](radiator.fds) input file is taken from the FDS website and used as an example.  This will run on, at most, 3 tasks.  Your real world work may scale to more tasks.
 
@@ -33,9 +33,9 @@ FDS is capable of running across multiple nodes but this should only be utilized
 
 Please also refer to the [FDS documentation](https://pages.nist.gov/fds-smv/manuals.html) to properly setup your requests for CPUs and tasks.
 
-### Batch script option  
+### Bash script option
 
-Using the [`fds-example.bash`](fds-example.bash) script as an example, modify the settings to meet your needs.  Please refer to the Slurm options file and examples for running batch scripts as shown in our [Slurm examples repository](../../../slurm/README.md) for more details.
+Using the [`fds-example.bash`](fds-example.bash) script as an example, modify the settings to meet your needs.  Please refer to the Slurm options file and examples for running bash scripts as shown in our [Slurm examples directory](../../../slurm/README.md) for more details.
 
 ### Interactive option  
 
